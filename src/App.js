@@ -1,5 +1,4 @@
 import React, { Component, useEffect, useState } from 'react'
-import HelloWorld from './components/HelloWorld'
 import axios from 'axios'
 import Movie from './components/Movie'
 

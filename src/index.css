@@ -63,3 +63,37 @@ h1 {
   margin-top: 0;
   border-radius: 15px;
 }
+
+@media (min-width: 768px) {
+  .overview {
+    width: 60%;
+    margin-left: 1rem;
+  }
+  .movie {
+    flex-direction: row;
+  }
+
+  .movie-image {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .movie {
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .overview {
+    width: 20rem;
+  }
+  .movie-title {
+    margin-right: 2rem;
+  }
+}
